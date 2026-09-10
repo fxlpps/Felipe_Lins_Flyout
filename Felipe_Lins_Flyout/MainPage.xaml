@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Felipe_Lins_Flyout.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="35,0"
+            Spacing="25" BackgroundColor="#7D9365">
+
+            <Image
+                Margin="0, 40, 0, 10"
+                Source="gravityfalls.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                SemanticProperties.Description="dot net bot in a hovercraft number nine" />
+
+            
+
+            <Label
+                Text="Gravity Falls é uma série"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Welcome to dot net Multi platform App U I" TextColor="#FFFFFF" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

@@ -6,21 +6,21 @@
     <ScrollView>
         <VerticalStackLayout
            Padding="35,0"
-           Spacing="25" BackgroundColor="#7D9365">
+           Spacing="25" BackgroundColor="#407ba5">
 
             <Image
                Margin="0, 40, 0, 10"
-               Source="gravityfalls.png"
-               HeightRequest="185"
+               Source="dipperpines.png"
+               HeightRequest="205"
                Aspect="AspectFit"
                />
 
             <Label
-               Text="Gravity Falls acompanha os gémeos Dipper e Mabel Pines durante as suas férias de verão com o tio-avô Stan numa cidade no Oregon.
-Após Dipper descobrir um diário secreto, os irmãos enfrentam criaturas sobrenaturais e o vilão principal, Bill Cipher.&#10;A série é composta por 2 temporadas com 20 episódios cada."
+               Text="Mason 'Dipper' Pines é um garoto inteligente, curioso e aventureiro de 13 anos (12 anos antes dos eventos do final da série ), e o herói principal da série . Junto com sua irmã gêmea Mabel , ele passa o verão de 2012 com seu tio-avô Stan em Gravity Falls, Oregon, onde ele e sua irmã constantemente se deparam com as tendências paranormais da cidade. Munido do Diário 3 , que ele encontrou em um compartimento escondido enterrado na Floresta de Gravity Falls , ele e Mabel trabalham para descobrir os misteriosos segredos da cidade."
                FontFamily="Coolvetica"
                Style="{StaticResource SubHeadline}"
-               TextColor="#FFFFFF" />
+               TextColor="#FFFFFF"
+               HorizontalTextAlignment="Start"/>
 
         </VerticalStackLayout>
         </ScrollView>

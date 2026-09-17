@@ -15,15 +15,14 @@
                 Aspect="AspectFit"
                 />
 
-            
 
-                
             <Label
                 Text="Gravity Falls acompanha os gémeos Dipper e Mabel Pines durante as suas férias de verão com o tio-avô Stan numa cidade no Oregon.
  Após Dipper descobrir um diário secreto, os irmãos enfrentam criaturas sobrenaturais e o vilão principal, Bill Cipher.&#10;A série é composta por 2 temporadas com 20 episódios cada."
                 FontFamily="Coolvetica"
                 Style="{StaticResource SubHeadline}"
-                TextColor="#FFFFFF" />
+                TextColor="#FFFFFF"
+                HorizontalTextAlignment="Start"/>
 
         </VerticalStackLayout>
     </ScrollView>

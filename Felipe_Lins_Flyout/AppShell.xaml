@@ -7,10 +7,16 @@
     Shell.FlyoutBehavior="Flyout"
     Title="Felipe_Lins_Flyout">
 
-    <ShellContent
-        Title="Teste"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" 
-        />
+    <FlyoutItem Title="Início">
+        <ShellContent
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+    </FlyoutItem>
+
+    <FlyoutItem Title="Dipper">
+        <ShellContent 
+        ContentTemplate="{DataTemplate local:Dipper}"
+        Route="Dipper"/>
+    </FlyoutItem>
 
 </Shell>

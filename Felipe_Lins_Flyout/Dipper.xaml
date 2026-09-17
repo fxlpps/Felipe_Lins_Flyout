@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Felipe_Lins_Flyout.Dipper"
+             Title="Dipper">
+    <ScrollView>
+        <VerticalStackLayout
+           Padding="35,0"
+           Spacing="25" BackgroundColor="#7D9365">
+
+            <Image
+               Margin="0, 40, 0, 10"
+               Source="gravityfalls.png"
+               HeightRequest="185"
+               Aspect="AspectFit"
+               />
+
+            <Label
+               Text="Gravity Falls acompanha os gémeos Dipper e Mabel Pines durante as suas férias de verão com o tio-avô Stan numa cidade no Oregon.
+Após Dipper descobrir um diário secreto, os irmãos enfrentam criaturas sobrenaturais e o vilão principal, Bill Cipher.&#10;A série é composta por 2 temporadas com 20 episódios cada."
+               FontFamily="Coolvetica"
+               Style="{StaticResource SubHeadline}"
+               TextColor="#FFFFFF" />
+
+        </VerticalStackLayout>
+        </ScrollView>
+</ContentPage>

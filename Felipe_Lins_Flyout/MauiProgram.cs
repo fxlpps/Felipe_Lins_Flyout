@@ -13,6 +13,7 @@ namespace Felipe_Lins_Flyout
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("Coolvetica-Rg.otf", "Coolvetica");
                 });
 
 #if DEBUG

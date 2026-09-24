@@ -19,4 +19,16 @@
         Route="Dipper"/>
     </FlyoutItem>
 
+    <FlyoutItem Title="Bill Cipher">
+        <ShellContent 
+        ContentTemplate="{DataTemplate local:BillCipher}"
+        Route="BillCipher"/>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Stanford Pines">
+        <ShellContent 
+    ContentTemplate="{DataTemplate local:StanfordPines}"
+    Route="StanfordPines"/>
+    </FlyoutItem>
+
 </Shell>

@@ -3,10 +3,26 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Felipe_Lins_Flyout.StanfordPines"
              Title="StanfordPines">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+    <VerticalStackLayout
+        Padding="35,0"
+        Spacing="25"
+        BackgroundColor="#b1a482">
+
+        <Image
+            Margin="0, 40, 0, 10"
+            Source="stanfordpines.png"
+            HeightRequest="205"
+            Aspect="AspectFit"
+          />
+
+        <Label
+             Text="Stanford 'Ford' Pines é um renomado cientista, pesquisador do sobrenatural e irmão gêmeo de Stanley Pines. Extremamente inteligente, curioso e determinado, ele dedicou grande parte de sua vida ao estudo dos fenômenos paranormais e dos mistérios de Gravity Falls. Anos antes dos acontecimentos da série, Ford construiu a Cabana do Mistério e passou a investigar as anomalias da cidade, registrando suas descobertas em três diários. Após descobrir a existência de uma entidade misteriosa e perigosa, ele acabou sendo levado para outra dimensão, onde passou décadas tentando encontrar uma maneira de retornar. Quando finalmente volta a Gravity Falls, Ford se une a Dipper e Mabel para enfrentar as ameaças sobrenaturais que cercam a cidade."
+             FontFamily="Coolvetica"
+             Style="{StaticResource SubHeadline}"
+             TextColor="#FFFFFF"
+             HorizontalTextAlignment="Start"
+         />
+        
+        
     </VerticalStackLayout>
 </ContentPage>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Felipe_Lins_Flyout.StanPines"
+             Title="StanPines">
+    <VerticalStackLayout
+    Padding="35,0"
+    Spacing="25"
+    BackgroundColor="#7a323c">
+
+        <Image
+        Margin="0, 40, 0, 10"
+        Source="stanpines.png"
+        HeightRequest="205"
+        Aspect="AspectFit"
+      />
+
+        <Label
+         Text="Stanley "Stan" Pines é um homem astuto, excêntrico e trapaceiro, conhecido por administrar a Cabana do Mistério, uma atração turística dedicada a supostos fenômenos sobrenaturais. Tio-avô de Dipper e Mabel, ele recebe os dois para passarem o verão de 2012 em Gravity Falls, Oregon, onde acaba se envolvendo nos acontecimentos paranormais da cidade. Apesar de sua personalidade gananciosa e de seu jeito malandro, Stan é extremamente protetor com sua família e faria qualquer coisa para mantê-la segura. Por trás de sua aparência de simples vigarista, ele esconde um passado misterioso e uma ligação profunda com os segredos de Gravity Falls."
+         FontFamily="Coolvetica"
+         Style="{StaticResource SubHeadline}"
+         TextColor="#FFFFFF"
+         HorizontalTextAlignment="Start"
+     />
+
+
+    </VerticalStackLayout>
+</ContentPage>

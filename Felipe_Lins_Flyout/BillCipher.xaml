@@ -5,7 +5,7 @@
              Title="BillCipher">
     <VerticalStackLayout
    Padding="35,0"
-   Spacing="25" BackgroundColor="#CBCB23">
+   Spacing="25" BackgroundColor="#171717">
 
             <Image
                Margin="0, 40, 0, 10"
@@ -15,7 +15,7 @@
              />
 
             <Label
-                Text="Teste"
+                Text="Bill Cipher é uma entidade sobrenatural poderosa, caótica e extremamente manipuladora, conhecida por assumir a forma de um pequeno triângulo amarelo com um único olho. Originário de uma dimensão misteriosa, ele é capaz de entrar nos sonhos e na mente das pessoas, além de possuir poderes que desafiam as leis da realidade. Ao longo dos eventos de Gravity Falls, Bill busca realizar seus planos para conquistar e transformar o mundo, fazendo acordos com aqueles que considera úteis. Extremamente inteligente e imprevisível, ele usa seu carisma, suas mentiras e seus poderes para manipular seus inimigos e espalhar o caos."
                 FontFamily="Coolvetica"
                 Style="{StaticResource SubHeadline}"
                 TextColor="#FFFFFF"

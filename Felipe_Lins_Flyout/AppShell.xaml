@@ -31,4 +31,10 @@
     Route="StanfordPines"/>
     </FlyoutItem>
 
+    <FlyoutItem Title="Stan Pines">
+        <ShellContent 
+ContentTemplate="{DataTemplate local:StanPines}"
+Route="Stan Pines"/>
+    </FlyoutItem>
+
 </Shell>

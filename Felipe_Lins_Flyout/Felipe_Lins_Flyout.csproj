@@ -71,6 +71,9 @@
 	  <MauiXaml Update="Dipper.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Mabel.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="StanfordPines.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

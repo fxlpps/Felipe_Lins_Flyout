@@ -19,6 +19,12 @@
         Route="Dipper"/>
     </FlyoutItem>
 
+    <FlyoutItem Title="Mabel">
+        <ShellContent 
+    ContentTemplate="{DataTemplate local:Mabel}"
+    Route="Mabel"/>
+    </FlyoutItem>
+
     <FlyoutItem Title="Bill Cipher">
         <ShellContent 
         ContentTemplate="{DataTemplate local:BillCipher}"
@@ -27,14 +33,14 @@
 
     <FlyoutItem Title="Stanford Pines">
         <ShellContent 
-    ContentTemplate="{DataTemplate local:StanfordPines}"
-    Route="StanfordPines"/>
+        ContentTemplate="{DataTemplate local:StanfordPines}"
+        Route="StanfordPines"/>
     </FlyoutItem>
 
-    <FlyoutItem Title="Stan Pines">
+    <FlyoutItem Title="Stanley Pines">
         <ShellContent 
-ContentTemplate="{DataTemplate local:StanPines}"
-Route="Stan Pines"/>
+        ContentTemplate="{DataTemplate local:StanPines}"
+        Route="StanPines"/>
     </FlyoutItem>
 
 </Shell>

@@ -16,7 +16,7 @@
       />
 
         <Label
-         Text="Stanley "Stan" Pines é um homem astuto, excêntrico e trapaceiro, conhecido por administrar a Cabana do Mistério, uma atração turística dedicada a supostos fenômenos sobrenaturais. Tio-avô de Dipper e Mabel, ele recebe os dois para passarem o verão de 2012 em Gravity Falls, Oregon, onde acaba se envolvendo nos acontecimentos paranormais da cidade. Apesar de sua personalidade gananciosa e de seu jeito malandro, Stan é extremamente protetor com sua família e faria qualquer coisa para mantê-la segura. Por trás de sua aparência de simples vigarista, ele esconde um passado misterioso e uma ligação profunda com os segredos de Gravity Falls."
+         Text="Stanley 'Stan' Pines é um homem astuto, excêntrico e trapaceiro, conhecido por administrar a Cabana do Mistério, uma atração turística dedicada a supostos fenômenos sobrenaturais. Tio-avô de Dipper e Mabel, ele recebe os dois para passarem o verão de 2012 em Gravity Falls, Oregon, onde acaba se envolvendo nos acontecimentos paranormais da cidade. Apesar de sua personalidade gananciosa e de seu jeito malandro, Stan é extremamente protetor com sua família e faria qualquer coisa para mantê-la segura. Por trás de sua aparência de simples vigarista, ele esconde um passado misterioso e uma ligação profunda com os segredos de Gravity Falls."
          FontFamily="Coolvetica"
          Style="{StaticResource SubHeadline}"
          TextColor="#FFFFFF"

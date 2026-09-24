@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Felipe_Lins_Flyout.Mabel"
+             Title="Mabel">
+    <VerticalStackLayout
+    Padding="35,0"
+    Spacing="25"
+    BackgroundColor="#ef465f">
+
+        <Image
+        Margin="0, 40, 0, 10"
+        Source="mabelpines.png"
+        HeightRequest="205"
+        Aspect="AspectFit"
+      />
+
+        <Label
+         Text="Mabel Pines é uma garota alegre, extrovertida e criativa de 13 anos (12 anos antes dos eventos do final da série), e uma das protagonistas da série. Junto com seu irmão gêmeo Dipper, ela passa o verão de 2012 com seu tio-avô Stan em Gravity Falls, Oregon, onde os dois constantemente se deparam com os fenômenos paranormais da cidade. Conhecida por seu otimismo, imaginação e personalidade excêntrica, Mabel acompanha Dipper em suas aventuras e o ajuda a desvendar os misteriosos segredos de Gravity Falls."
+         FontFamily="Coolvetica"
+         Style="{StaticResource SubHeadline}"
+         TextColor="#FFFFFF"
+         HorizontalTextAlignment="Start"
+     />
+
+
+    </VerticalStackLayout>
+</ContentPage>

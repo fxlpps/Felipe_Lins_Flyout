@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Felipe_Lins_Flyout.Mabel"
              Title="Mabel">
-    <VerticalStackLayout
+    <ScrollView>
+        <VerticalStackLayout
     Padding="35,0"
     Spacing="25"
     BackgroundColor="#ef465f">
@@ -25,4 +26,5 @@
 
 
     </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>

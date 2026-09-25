@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Felipe_Lins_Flyout.StanPines"
              Title="StanPines">
-    <VerticalStackLayout
+    <ScrollView>
+        <VerticalStackLayout
     Padding="35,0"
     Spacing="25"
     BackgroundColor="#7a323c">
@@ -25,4 +26,5 @@
 
 
     </VerticalStackLayout>
+        </ScrollView>
 </ContentPage>
